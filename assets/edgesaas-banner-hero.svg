@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a12" />
+      <stop offset="50%" stop-color="#0c1322" />
+      <stop offset="100%" stop-color="#080e1a" />
+    </linearGradient>
+
+    <!-- Edge Glow Gradients -->
+    <radialGradient id="glow-cyan" cx="20%" cy="25%" r="45%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow-purple" cx="80%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow-orange" cx="50%" cy="85%" r="45%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Card Background -->
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="accent-text" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="cf-orange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#fb923c" />
+    </linearGradient>
+
+    <!-- Subtle Grid -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-opacity="0.15" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="1200" height="630" fill="url(#bg-grad)" />
+  <rect width="1200" height="630" fill="url(#grid)" />
+
+  <!-- Ambient Light Glows -->
+  <circle cx="240" cy="180" r="350" fill="url(#glow-cyan)" />
+  <circle cx="960" cy="200" r="380" fill="url(#glow-purple)" />
+  <circle cx="600" cy="540" r="320" fill="url(#glow-orange)" />
+
+  <!-- Brand Eyebrow -->
+  <g transform="translate(100, 90)">
+    <rect x="0" y="0" width="220" height="34" rx="17" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.4" />
+    <circle cx="18" cy="17" r="5" fill="#38bdf8" />
+    <text x="32" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#38bdf8" letter-spacing="1.2">NEXUSPULSE // EDGESAAS</text>
+  </g>
+
+  <!-- Main Headline -->
+  <g transform="translate(100, 185)">
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="52" font-weight="900" fill="#ffffff" letter-spacing="-1.5">
+      Ship Production Micro-SaaS on the
+    </text>
+    <text x="0" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="52" font-weight="900" fill="url(#accent-text)" letter-spacing="-1.5">
+      Global Edge in 15 Minutes.
+    </text>
+    <text x="0" y="118" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#94a3b8" letter-spacing="-0.2">
+      Zero cold starts. $0.00/month idle cost. Pre-wired Hono router, Stripe billing, and Web Crypto auth.
+    </text>
+  </g>
+
+  <!-- Metric Stat Cards -->
+  <g transform="translate(100, 360)">
+    <!-- Card 1: Latency -->
+    <g transform="translate(0, 0)">
+      <rect width="310" height="110" rx="16" fill="url(#card-grad)" stroke="#334155" stroke-width="1.2" />
+      <text x="24" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="34" font-weight="800" fill="#38bdf8">&lt; 15ms</text>
+      <text x="24" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#ffffff">Worldwide Edge Latency</text>
+      <text x="24" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#64748b">300+ Cloudflare PoPs</text>
+    </g>
+
+    <!-- Card 2: Cost -->
+    <g transform="translate(345, 0)">
+      <rect width="310" height="110" rx="16" fill="url(#card-grad)" stroke="#334155" stroke-width="1.2" />
+      <text x="24" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="34" font-weight="800" fill="#4ade80">$0.00 / mo</text>
+      <text x="24" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#ffffff">Zero-Traffic Idle Cost</text>
+      <text x="24" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#64748b">100k requests/day free tier</text>
+    </g>
+
+    <!-- Card 3: Cold Start -->
+    <g transform="translate(690, 0)">
+      <rect width="310" height="110" rx="16" fill="url(#card-grad)" stroke="#334155" stroke-width="1.2" />
+      <text x="24" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="34" font-weight="800" fill="#fb923c">0.0ms</text>
+      <text x="24" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#ffffff">Cold Start Overhead</text>
+      <text x="24" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#64748b">Instant V8 Isolate execution</text>
+    </g>
+  </g>
+
+  <!-- Tech Stack Feature Pills -->
+  <g transform="translate(100, 520)">
+    <!-- Pill 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="180" height="38" rx="10" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="16" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#f8fafc">⚡ Cloudflare Workers</text>
+    </g>
+
+    <!-- Pill 2 -->
+    <g transform="translate(192, 0)">
+      <rect width="125" height="38" rx="10" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="16" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#f8fafc">🔥 Hono v4.6</text>
+    </g>
+
+    <!-- Pill 3 -->
+    <g transform="translate(329, 0)">
+      <rect width="155" height="38" rx="10" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="16" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#f8fafc">💳 Stripe Checkout</text>
+    </g>
+
+    <!-- Pill 4 -->
+    <g transform="translate(496, 0)">
+      <rect width="170" height="38" rx="10" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="16" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#f8fafc">🛡️ Web Crypto Auth</text>
+    </g>
+
+    <!-- Pill 5 -->
+    <g transform="translate(678, 0)">
+      <rect width="170" height="38" rx="10" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="16" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#f8fafc">⏱️ KV Rate Limiting</text>
+    </g>
+
+    <!-- Pill 6 -->
+    <g transform="translate(860, 0)">
+      <rect width="140" height="38" rx="10" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="16" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#f8fafc">🧪 Vitest 100%</text>
+    </g>
+  </g>
+</svg>

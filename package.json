@@ -1,0 +1,34 @@
+{
+  "name": "nexus-edgesaas-boilerplate",
+  "version": "1.0.0",
+  "description": "Production-Ready Edge Micro-SaaS Starter Kit for Cloudflare Workers, Hono, Stripe Billing, and TypeScript",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "cloudflare-workers",
+    "micro-saas",
+    "hono",
+    "stripe",
+    "edge-computing",
+    "starter-kit",
+    "boilerplate"
+  ],
+  "author": "NexusPulse Architecture Group",
+  "license": "Commercial",
+  "dependencies": {
+    "hono": "^4.6.0",
+    "stripe": "^17.2.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241022.0",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.3",
+    "wrangler": "^3.83.0"
+  }
+}

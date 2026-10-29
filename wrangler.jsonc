@@ -1,0 +1,23 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "nexus-edgesaas-starter",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-23",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "kv_namespaces": [
+    {
+      "binding": "SAAS_KV",
+      "id": "REPLACE_WITH_YOUR_KV_ID"
+    }
+  ],
+  "vars": {
+    "ENVIRONMENT": "production",
+    "APP_NAME": "NexusEdge MicroSaaS",
+    "APP_URL": "https://edgesaas.example.com",
+    "STRIPE_PRICE_STARTER": "price_starter_19_mo",
+    "STRIPE_PRICE_PRO": "price_pro_99_mo"
+  }
+}
