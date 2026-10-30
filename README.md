@@ -117,13 +117,13 @@ npm run deploy
 
 ## Commercial Licensing & Instant Checkout
 
-Choose the right license for your project. After payment, your download link and commercial license key are delivered instantly:
+Choose the right license for your project. Micro-priced for developers to launch without friction:
 
 | License Tier | Price | Coverage | Instant Checkout |
 | :--- | :--- | :--- | :--- |
 | **Community Edition** | **Free** | MIT License, personal / open-source use | [Clone on GitHub](https://github.com/MilindChatrabhuji/edgesaas-starter-kit) |
-| **Pro Developer License** | **$39 USD (~Rs 3,300 INR)** | 1 Commercial Production SaaS, Multi-tenant Admin, Stripe/PayPal webhooks | [**Buy Pro License ($39)**](https://paypal.me/milindchatrabhuji/39usd) |
-| **Agency Unlimited License** | **$99 USD (~Rs 8,350 INR)** | Unlimited Client Deployments, Full White-label Rights, Direct Priority Support | [**Buy Agency License ($99)**](https://paypal.me/milindchatrabhuji/99usd) |
+| **Pro Developer License** | **$9 USD (~Rs 750 INR)** | 1 Commercial Production SaaS, Multi-tenant Admin, Stripe/PayPal webhooks | [**Buy Pro License ($9)**](https://paypal.me/milindchatrabhuji/9usd) |
+| **Agency Unlimited License** | **$19 USD (~Rs 1,600 INR)** | Unlimited Client Deployments, Full White-label Rights, Direct Priority Support | [**Buy Agency License ($19)**](https://paypal.me/milindchatrabhuji/19usd) |
 
 > **Instant Settlement Guarantee:** All payments are processed directly via PayPal (`milind.chatrabhuji@gmail.com`) with instant license delivery and a 14-day money-back guarantee.
-> For custom enterprise integrations or invoice inquiries: `milind.chatrabhuji@gmail.com`.
+> For enterprise inquiries: `milind.chatrabhuji@gmail.com`.
